@@ -78,5 +78,13 @@ body, header {
     margin: 0 auto;
   }
 
-
+.fundo{
+  background-color: #f0f0f0;
+}
   
+
+.offcanvas-end {
+  width: 700px; 
+}
+
+

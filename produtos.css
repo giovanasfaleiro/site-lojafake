@@ -1,0 +1,18 @@
+.btn{
+    background-color:  #8200a7;
+    color: white;
+    border: none ;
+    border-radius: 20px;
+}
+
+.alert-success{
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color:   #8200a7;
+    color: white;
+    border: none;
+    border-radius: 40px;
+}

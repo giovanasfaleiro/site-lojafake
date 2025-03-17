@@ -1,12 +1,11 @@
-// Lidar com o envio do formulário de frete
 document.getElementById('formFrete').addEventListener('submit', function(event) {
-    event.preventDefault(); // Impede o envio do formulário padrão
+    event.preventDefault(); 
   
     var cep = document.getElementById('cep').value.trim();
     var freteMessageDiv = document.getElementById('freteMessage');
     cep = cep.replace("-", "");
   
-    if (cep.length === 8 && !isNaN(cep)) { // Verifica se o CEP tem 8 caracteres e é numérico
+    if (cep.length === 8 && !isNaN(cep)) { 
       fetch(`https://viacep.com.br/ws/${cep}/json/`) 
         .then(response => response.json())
         .then(data => {
